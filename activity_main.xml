@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/todobtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:text="@string/to_do_list"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/notebtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@id/todobtn"
+        android:text="@string/notes"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/reminderbtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/notebtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:text="@string/reminders"
+        android:textSize="36sp" />
+
+
+</RelativeLayout>
